@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="jquery.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  
+  background-image: url(contact.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ </style>
+    </head>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+        <h1 >  <a class="navbar-brand" style="float: left; font-size: 35px;text-shadow: 5px 5px 5px black;" href="#">Vending Machines</a></h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active" style="font-size: 20px;">
+                <a class="nav-link" href="home.html">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+              </li>
+              <li class="nav-item" style="font-size: 20px;">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item"style="font-size: 20px;">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <center>
+      <div style="margin:10px; width:40%;position:absolute;top:20%;left: 30%; ">
+       
+    
+           <form method="post">
+            <label style="color: white;font-weight: bolder;font-family: 'Play', sans-serif"> <h2><strong>Drop Us a Message</strong></h2></label>
+         <div style="color: black;">
+            <input type=" Name"style="margin:20px;width:70%;font-family: 'Play', sans-serif " class="form-control" placeholder="Your Name*" required>
+            <input type=" Email"style="margin:20px;width:70%;font-family: 'Play', sans-serif" class="form-control" placeholder="Your Email*" required>
+            <input type=" Phone Number"style="margin:20px;width:70%;font-family: 'Play', sans-serif" class="form-control" placeholder="Your Phone Number" required>
+            <textarea  rows="4"  name="comment" form="usrform"placeholder="Your Message*" style="border-radius: 3%;"></textarea>  
+        </div>
+            <button class="btn btn-danger"style="margin:20px;font-family: 'Play', sans-serif;"> Send Message</button>
+           </form>
+       
+        </div>
+    </center>
+      </html>
